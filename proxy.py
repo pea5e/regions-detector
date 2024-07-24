@@ -1,13 +1,20 @@
 from flask import Flask, jsonify, request, Response
 import cv2 
+from requests import get,post
 
 
 
 
 app = Flask(__name__)
 
+@app.route("/verify")
+def verify():
+    verificationCode = request.form['verificationCode']
+
+
+
 @app.route("/Region/<lat>,<lon>")
-def index(lat,lon):
+def region(lat,lon):
     region = {
         0: "not in map",
         255: "Border",
@@ -59,13 +66,17 @@ def index(lat,lon):
   
     return jsonify({"Region":region[c]})
 
-
-@app.route('/<path>', methods=["GET", "POST"])
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>', methods=["GET", "POST"])
 def proxy(path):
     headers = request.headers
-    data = request.json
+    # data = request.json
+    data = ""
+
     print(path,headers,data)
+    request(path)
+    return "hello ,world!"
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=False)
+    app.run(host="0.0.0.0", port=4400, debug=False)
