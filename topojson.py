@@ -1,9 +1,9 @@
-from json import loads
+import json 
 
 with  open("regions.json" , 'r',encoding="utf-8") as f :
   r = f.read() 
 
-js = loads(r)
+js = json.loads(r)
 
 print(js.keys())
 
@@ -20,6 +20,18 @@ for j in js["objects"]["regions"]["geometries"]:
 l = list(map(lambda x:  x*-1-1 if x<0 else x,l))
 print(l)
 print(len(js["arcs"]))
+
+remove = list()
+
 for i in range(len(js["arcs"])):
   if i not in l:
+    remove.append(i)
     print(i)
+
+
+for i in remove:
+  js["arcs"][i] = [[]]
+
+with open("region-v2.json" , 'w',encoding="utf-8") as file:
+  file.write(json.dumps(js))
+
