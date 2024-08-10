@@ -10,24 +10,24 @@
       },
       "geometries": [
         {
-          "type": "MultiPolygon",
+          "type": "Polygon",
           "id": "MA-01",
           "properties": {
             "name:en": "Tanger-Tétouan-Al Hoceïma",
             "name:ar": "طنجة تطوان الحسيمة",
             "name": "Tanger-Tétouan-Al Hoceima ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة"
           },
-          "arcs": [[[-7, -8, -9, -10, -11, -12, -13, 2]]]
+          "arcs": [[-7, -8, -9, -10, -11, -12, -13, 2]]
         },
         {
-          "type": "MultiPolygon",
+          "type": "Polygon",
           "id": "MA-02",
           "properties": {
             "name:en": "L'Oriental",
             "name:ar": "الشرقية",
             "name": "Oriental ⵜⴰⵏⴳⵎⵓⴹⵜ الشرقية"
           },
-          "arcs": [[[-14, -15, -16, 9, -17, 5]]]
+          "arcs": [[-14, -15, -16, 9, -17, 5]]
         },
         {
           "type": "Polygon",
@@ -40,14 +40,14 @@
           "arcs": [[17, 18, 19, 20, 14, 21]]
         },
         {
-          "type": "MultiPolygon",
+          "type": "Polygon",
           "id": "MA-09",
           "properties": {
             "name:en": "Souss-Massa",
             "name:ar": "سوس-ماسة",
             "name": "Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة"
           },
-          "arcs": [[[-23, -24, -18, -25, -26]]]
+          "arcs": [[-23, -24, -18, -25, -26]]
         },
         {
           "type": "Polygon",
