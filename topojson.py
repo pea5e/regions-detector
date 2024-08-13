@@ -85,8 +85,9 @@ print(transform)
 # coord = (35.686015, -5.820450)
 coord = (34.614845, -5.288887)
 coord = (35.549780, -5.574435)
-coord = (34.582470, -5.316348)
-coord = (34.796643, -5.289176)
+coord = (34.638605, -5.193531)
+coord = (34.983104, -6.019328)
+coord = (34.981110, -6.020689)
 
 x = coord[1] - transform["translate"][0];
 y = coord[0] - transform["translate"][1];
@@ -141,21 +142,44 @@ print(xperScale,yperScale)
 
 # print(l)
 
+# l = list()
+
+# for arcIndex,arc in enumerate(regions[0]["arcs"][0]):
+#     x = arc if arc >= 0 else arc*-1-1
+#     cpath = [js["arcs"][x][0][0],js["arcs"][x][0][1]]
+#     for dirIndex,dirs in enumerate(js["arcs"][x][1:],start=1):
+#         if (cpath[1]<=yperScale and cpath[1]+dirs[1]>=yperScale) or (cpath[1]>=yperScale and cpath[1]+dirs[1]<=yperScale):
+#             l.append([[cpath[0]+(abs(yperScale-cpath[1])/dirs[1])*dirs[0],yperScale],cpath,arcIndex,dirIndex,dirs,arc])
+#             if len(l)==2:
+#                 print(l)
+#                 if ((l[0][0][0]<=xperScale and l[1][0][0]>=xperScale) or (l[0][0][0]>=xperScale and l[1][0][0]<=xperScale)) and (( l[0][-1]==l[1][-1] and l[1][-1]>=0 ) or l[0][-1]!=l[1][-1]) : 
+#                     print("included\n")
+#                     exit()
+#                 l.clear()
+#         cpath[0] = cpath[0]+dirs[0]
+#         cpath[1] = cpath[1]+dirs[1]
+
+# print(l)
+
+
+
+
 l = list()
+lo = list()
 
 for arcIndex,arc in enumerate(regions[0]["arcs"][0]):
     x = arc if arc >= 0 else arc*-1-1
     cpath = [js["arcs"][x][0][0],js["arcs"][x][0][1]]
     for dirIndex,dirs in enumerate(js["arcs"][x][1:],start=1):
         if (cpath[1]<=yperScale and cpath[1]+dirs[1]>=yperScale) or (cpath[1]>=yperScale and cpath[1]+dirs[1]<=yperScale):
-            l.append([[cpath[0]+(abs(yperScale-cpath[1])/dirs[1])*dirs[0],yperScale],cpath,arcIndex,dirIndex,dirs,arc])
-            if len(l)==2:
-                print(l)
-                if ((l[0][0][0]<=xperScale and l[1][0][0]>=xperScale) or (l[0][0][0]>=xperScale and l[1][0][0]<=xperScale)) and (( l[0][-1]==l[1][-1] and l[1][-1]>=0 ) or l[0][-1]!=l[1][-1]) : 
-                    print("included\n")
-                    exit()
-                l.clear()
+            l.append(cpath[0]+abs(abs(yperScale-cpath[1])/dirs[1])*dirs[0])
+            lo.append([cpath[0],dirs[0],abs(yperScale-cpath[1]),(abs(yperScale-cpath[1])/dirs[1]),dirs[1]])
         cpath[0] = cpath[0]+dirs[0]
         cpath[1] = cpath[1]+dirs[1]
-
 print(l)
+l = sorted(l)
+# for i in l:
+#     print((i*transform["scale"][0])+transform["translate"][0])
+
+print (l)
+print(lo)
