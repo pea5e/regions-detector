@@ -9,7 +9,9 @@ transform = js["transform"]
 arcs = len(js["arcs"])
 regions = js["objects"]["regions"]["geometries"] 
 
-coord = (29.414795, -9.636195)
+coord = (33.466255, -5.786114) #Beni Mellal
+coord = (33.470412, -5.784583) #Fes
+coord = (33.470167, -5.787494) #Rabat
 
 x = coord[1] - transform["translate"][0];
 y = coord[0] - transform["translate"][1];
