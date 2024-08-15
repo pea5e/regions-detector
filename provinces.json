@@ -11,15 +11,13 @@
                 }
             },
             "geometries": [{
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-TNG",
                 "properties": {
                     "name": "Préfecture de Tanger-Assilah عمالة طنجة-أصيلة"
                 },
                 "arcs": [
-                    [
                         [-1, -2, -3, -4]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -40,15 +38,13 @@
                     [2, 5, -10, -11, -12, -13]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-CHE",
                 "properties": {
                     "name": "Province de Chefchaouen ⵜⵛⴻⴼⵜⵛⴰⵡⴻⵏ إقليم شفشاون"
                 },
                 "arcs": [
-                    [
                         [-14, -15, -16, 9, 4, -17]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -69,15 +65,13 @@
                     [23, 24, 25, 26, 21, 27]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-HOC",
                 "properties": {
                     "name": "Province d'Al Hoceima إقليم الحسيمة"
                 },
                 "arcs": [
-                    [
                         [-29, -30, -31, 13, -32]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -116,21 +110,13 @@
                     [43, -41, 44]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-SKH",
                 "properties": {
                     "name": "Préfecture de Skhirate-Témara عمالة الصخيرات-تمارة"
                 },
                 "arcs": [
-                    [
-                        [-46]
-                    ],
-                    [
-                        [-47]
-                    ],
-                    [
                         [-48, -49, -45, -40, -50]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -232,18 +218,13 @@
                     [92, 93, 94, 95, 96, 91, 97]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-JDI",
                 "properties": {
                     "name": "Province d'El Jadida إقليم الجديدة"
                 },
                 "arcs": [
-                    [
-                        [-99]
-                    ],
-                    [
                         [-100, -101, -65, -102, -103]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -255,21 +236,13 @@
                     [-104, -105, -106, -107]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-ESI",
                 "properties": {
                     "name": "Province Essaouira ⵍⵉⵇⵍⵉⵎ ⵏ ⵚⵡⵉⵔⴰ إقليم الصويرة"
                 },
                 "arcs": [
-                    [
-                        [-108]
-                    ],
-                    [
-                        [-109]
-                    ],
-                    [
                         [-110, 105, -111, -112, -113]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -290,15 +263,13 @@
                     [117, -69, 118, -96, 119]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-AGD",
                 "properties": {
                     "name": "Préfecture d'Agadir Ida-Outanane ⵍⵄⴰⵎⴰⵍⴰ ⵏ ⴰⴳⴰⴷⵉⵔ ⵉⴷⴰ ⵡⵜⴰⵏⴰⵏ عمالة أكادير إدا وتنان"
                 },
                 "arcs": [
-                    [
                         [-121, 112, -122, -123]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -346,15 +317,13 @@
                     [143, 144, 142, -136, 145, 146]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-NAD",
                 "properties": {
                     "name": "Province de Nador إقليم الناظور"
                 },
                 "arcs": [
-                    [
                         [-148, -149, -150, -151, -152]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -447,15 +416,13 @@
                     [176, 150, 179, 177]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-FAH",
                 "properties": {
                     "name": "Province de Fahs-Anjra إقليم الفحص-أنجرة"
                 },
                 "arcs": [
-                    [
                         [-181, 6, 0, -182]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -503,15 +470,13 @@
                     [122, -125, -193, -194]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-CHT",
                 "properties": {
                     "name": "Province de Chtouka Aït Baha ⵜⴰⵙⴳⴰ ⵏ ⵛⵜⵓⴽⴰ ⴰⵢⵜ ⴱⴰⵀⴰ إقليم شتوكة آيت باها"
                 },
                 "arcs": [
-                    [
                         [-124, 141, -195, 192]
-                    ]
                 ]
             }, {
                 "type": "Polygon",
@@ -713,15 +678,13 @@
                     [-145, 225, 139]
                 ]
             }, {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "id": "MA-MDF",
                 "properties": {
                     "name": "Préfecture de M'diq-Fnideq عمالة المضيق الفنيدق"
                 },
                 "arcs": [
-                    [
                         [-227, 7, 180]
-                    ]
                 ]
             }]
         }
