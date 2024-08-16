@@ -1,6 +1,215 @@
 {
     "type": "Topology",
     "objects": {
+        "regions": [
+            {
+            "type": "Polygon",
+            "id": "MA-01",
+            "properties": {
+                "name:en": "Tanger-Tétouan-Al Hoceïma",
+                "name:ar": "طنجة تطوان الحسيمة",
+                "name": "Tanger-Tétouan-Al Hoceima ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة"
+            },
+            "provinces": [
+                "MA-TNG",
+                "MA-TET",
+                "MA-LAR",
+                "MA-CHE",
+                "MA-FAH",
+                "MA-OUZ",
+                "MA-MDF",
+                "MA-HOC"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-02",
+            "properties": {
+                "name:en": "L'Oriental",
+                "name:ar": "الشرقية",
+                "name": "Oriental ⵜⴰⵏⴳⵎⵓⴹⵜ الشرقية"
+            },
+            "provinces": [
+                "MA-NAD",
+                "MA-FIG",
+                "MA-JRA",
+                "MA-TAI",
+                "MA-OUJ",
+                "MA-BER",
+                "MA-GUF",
+                "MA-DRI"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-08",
+            "properties": {
+                "name:en": "Drâa-Tafilalet",
+                "name:ar": "درعة تافيلالت",
+                "name": "Drâa-Tafilalet ⴷⴰⵔⵄⴰ-ⵜⴰⴼⵉⵍⴰⵍⵜ درعة تافيلالت"
+            },
+            "provinces": [
+                "MA-ERR",
+                "MA-OUA",
+                "MA-ZAG",
+                "MA-TIN",
+                "MA-MID"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-09",
+            "properties": {
+                "name:en": "Souss-Massa",
+                "name:ar": "سوس-ماسة",
+                "name": "Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة"
+            },
+            "provinces": [
+                "MA-AGD",
+                "MA-TAR",
+                "MA-TIZ",
+                "MA-INE",
+                "MA-CHT",
+                "MA-TAT"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-10",
+            "properties": {
+                "name:en": "Guelmim-Oued Noun (EH-partial)",
+                "name:ar": "كلميم وادي نون",
+                "name": "Guelmim-Oued Noun ⵜⴰⵙⴳⴰ-ⵡⴰⴷ ⵏⵓⵏ كلميم وادي نون"
+            },
+            "provinces": [
+                "MA-GUE",
+                "MA-TNT",
+                "MA-ASZ",
+                "MA-SIF"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-06",
+            "properties": {
+                "name:en": "Casablanca-Settat",
+                "name:ar": "الدار البيضاء-سطات",
+                "name": "Casablanca-Settat ⵜⵉⴳⵎⵉ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات"
+            },
+            "provinces": [
+                "MA-BES",
+                "MA-SET",
+                "MA-JDI",
+                "MA-CAS",
+                "MA-MED",
+                "MA-MOH",
+                "MA-NOU",
+                "MA-BRR",
+                "MA-SIB"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-07",
+            "properties": {
+                "name:en": "Marrakech-Safi",
+                "name:ar": "مراكش-أسفي",
+                "name": "Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي"
+            },
+            "provinces": [
+                "MA-SAF",
+                "MA-MAR",
+                "MA-KES",
+                "MA-CHI",
+                "MA-HAO",
+                "MA-YUS",
+                "MA-REH",
+                "MA-ESI"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-11",
+            "properties": {
+                "name:en": "Laâyoune-Sakia El Hamra (EH-partial)",
+                "name:ar": "العيون الساقية الحمراء",
+                "name": "Laâyoune-Sakia El Hamra ⵍⵄⵢⵓⵏ-ⵙⴰⵇⵢⴰ ⵍⵃⴰⵎⵔⴰ العيون الساقية الحمراء"
+            },
+            "provinces": [
+                "MA-LAA",
+                "MA-BOD",
+                "MA-TAF",
+                "MA-ESM"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-12",
+            "properties": {
+                "name:en": "Dakhla-Oued Ed-Dahab (EH)",
+                "name:ar": "الداخلة-وادي الذهب",
+                "name": "Dakhla-Oued Ed-Dahab ⴷⴰⵅⵍⴰ-ⵡⴰⴷ ⴷⴰⵀⴰⴱ الداخلة-وادي الذهب"
+            },
+            "provinces": [
+                "MA-AOU",
+                "MA-OUD"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-04",
+            "properties": {
+                "name:en": "Rabat-Salé-Kénitra",
+                "name:ar": "الرباط-سلا-القنيطرة",
+                "name": "Rabat-Salé-Kénitra ⵔⴱⴰⵟ-ⵙⵍⴰ-ⵇⵏⵉⵟⵔⴰ الرباط-سلا-القنيطرة"
+            },
+            "provinces": [
+                "MA-KEN",
+                "MA-SIK",
+                "MA-SAL",
+                "MA-RAB",
+                "MA-SKH",
+                "MA-KHE",
+                "MA-SIL"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-03",
+            "properties": {
+                "name:en": "Fès-Meknès",
+                "name:ar": "فاس-مكناس",
+                "name": "Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس"
+            },
+            "provinces": [
+                "MA-TAO",
+                "MA-TAZ",
+                "MA-FES",
+                "MA-MEK",
+                "MA-IFR",
+                "MA-MOU",
+                "MA-BOM",
+                "MA-SEF",
+                "MA-HAJ"
+            ]
+            },
+            {
+            "type": "Polygon",
+            "id": "MA-05",
+            "properties": {
+                "name:en": "Béni Mellal-Khénifra",
+                "name:ar": "بني ملال-خنيفرة",
+                "name": "Béni Mellal-Khénifra ⴰⵢⵜ ⵎⵍⵍⴰⵍ-ⵅⵏⵉⴼⵕⴰ بني ملال-خنيفرة"
+            },
+            "provinces": [
+                "MA-KHO",
+                "MA-KHN",
+                "MA-BEM",
+                "MA-AZI",
+                "MA-FQH"
+            ]
+            }
+        ],
         "provinces": {
             "type": "GeometryCollection",
             "name": "provinces",
